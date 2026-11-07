@@ -1,4 +1,4 @@
-// ЗАВДАННЯ 1: Порівняння кількості літер a
+// ЗАВДАННЯ 1
 const firstRow = 'Slow and steady wins the race';
 const secondRow = 'You can say that again';
 
@@ -25,10 +25,10 @@ function getRow(row1, row2) {
     }
 }
 
-console.log("--- Результат Завдання 1 ---");
+console.log("Результат Завдання 1");
 console.log(getRow(firstRow, secondRow));
 
-// ЗАВДАННЯ 2: Форматування номеру телефону
+// ЗАВДАННЯ 2
 function formattedPhone(phone) {
     let cleaned = phone.trim();
     let digits = cleaned.replace(/\D/g, '');
@@ -51,7 +51,7 @@ function formattedPhone(phone) {
     return `${country} (${operator}) ${part1}-${part2}-${part3}`;
 }
 
-console.log("--- Результат Завдання 2 ---");
+console.log("Результат Завдання 2");
 console.log(formattedPhone('+380664567890'));
 console.log(formattedPhone('80971234567'));    
 console.log(formattedPhone('0671234567'));      
